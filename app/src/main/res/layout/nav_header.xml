@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:gravity="bottom"
+    android:padding="12dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_height="176dp">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/baseline_stacked_line_chart_24white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/dateInfoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALYUTA KURSLARI"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
